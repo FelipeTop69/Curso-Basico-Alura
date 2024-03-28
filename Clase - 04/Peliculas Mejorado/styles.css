@@ -1,0 +1,106 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/foto-gratis/disposicion-elementos-cine-sobre-fondo-negro-espacio-copia_23-2148457842.jpg?t=st=1711655644~exp=1711659244~hmac=b02051003c24ac8680a46b7ca77e6e48e0f2b68489e00ffaaf79d542e1edfe1b&w=740");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaPeliculas .pelicula {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+}
+
+#listaPeliculas img {
+  max-height: 250px;
+  border-radius: 15%;
+}
+
+#listaPeliculas img:hover {
+  transform: scale(1.2);
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 30px;
+}
+
+#mensajeDeError {
+  color: red;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #01b869;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.botonEliminar {
+  display: block;
+  margin: 10px auto 0;
+  border: 0;
+  color: #ffffff;
+  background: #ff0000;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botonEliminar:hover {
+  opacity: 0.8;
+}
+
+.atribucion {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
